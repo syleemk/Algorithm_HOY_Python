@@ -1,0 +1,13 @@
+n = input("Enter the number : ")
+n = int(n)
+
+m = 1
+f = 1
+
+while True :
+    f = f * m
+    if m == n :
+        print(f)
+        break
+    else :
+        m = m+1
